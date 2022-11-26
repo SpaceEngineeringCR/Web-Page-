@@ -449,7 +449,7 @@ body {
 }
 
 body {
-  background-color: var(--color-body);
+  background-color: white;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -460,6 +460,7 @@ body {
 p {
   font-size: inherit;
   text-rendering: optimizeLegibility;
+  color: #000000;
 }
 
 a {
@@ -1259,7 +1260,7 @@ h6,
 .h6 {
   font-family: var(--font-2);
   font-weight: 400;
-  color: var(--color-text-dark);
+  color: black;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
@@ -1268,6 +1269,7 @@ h1,
 .h1 {
   margin-top: var(--vspace-2_5);
   margin-bottom: var(--vspace-0_75);
+  color: #000000;
 }
 
 h2,
@@ -1278,6 +1280,7 @@ h4,
 .h4 {
   margin-top: var(--vspace-2);
   margin-bottom: var(--vspace-0_5);
+  color: #000000;
 }
 
 h5,
@@ -1286,6 +1289,7 @@ h6,
 .h6 {
   margin-top: var(--vspace-1_5);
   margin-bottom: var(--vspace-0_5);
+  color: #000000;
 }
 
 h1,
@@ -1293,6 +1297,7 @@ h1,
   font-size: var(--text-display-1);
   line-height: var(--vspace-2);
   letter-spacing: -0.01em;
+  color: #000000;
 }
 
 @media screen and (max-width: 500px) {
@@ -1525,10 +1530,10 @@ hr.fancy::before {
 .lead,
 .attention-getter {
   font-family: var(--font-1);
-  font-weight: 300;
+  font-weight: 400;
   font-size: var(--text-md);
   line-height: var(--vspace-1_25);
-  color: var(--color-text-dark);
+  color: black;
 }
 
 .pull-quote {
@@ -1744,7 +1749,7 @@ img,
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background: var(--color-body);
+  background: var(--color-gray-9);
   z-index: 500;
   height: 100vh;
   width: 100%;
@@ -1759,7 +1764,7 @@ img,
   width: var(--vspace-2);
   height: var(--vspace-2);
   padding: 0;
-  background-color: white;
+  background-color: #f6a21e;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1s infinite ease-in-out;
   animation: sk-scaleout 1s infinite ease-in-out;
@@ -2617,18 +2622,20 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 #contact-title {
   margin-bottom: -10px;
+  color: #000000;
+  font-weight: bold;
 }
 
 .text-pretitle {
   font-family: var(--font-1);
   font-size: var(--text-sm);
-  font-weight: 400;
-  color: var(--color-white);
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   margin-top: 0;
   margin-left: 0.2rem;
   position: relative;
+  color: #000000;
 }
 
 .text-pretitle.with-line {
@@ -2653,6 +2660,7 @@ img.u-pull-left {
   font-size: var(--text-huge);
   line-height: 1.074;
   margin-top: 0;
+  color: #000000;
 }
 
 .text-min-title {
@@ -2837,9 +2845,9 @@ img.u-pull-left {
 
 .s-pagewrap .circles span {
   display: block;
-  border: 1px solid var(--color-1);
+  border: 2px solid #f6a21e;
   border-radius: 50%;
-  opacity: 0.1;
+  opacity: 25;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
@@ -3188,8 +3196,8 @@ img.u-pull-left {
   z-index: 1;
   list-style: none;
   display: flex;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   margin: 0;
@@ -3211,7 +3219,7 @@ img.u-pull-left {
 
 .intro-social a:focus,
 .intro-social a:hover {
-  color: white;
+  color: #f6a21e;
 }
 
 /* --------------------------------------------------------------------
@@ -4068,7 +4076,7 @@ img.u-pull-left {
 
 .contact-top {
   padding-top: var(--vspace-25);
-  border-top: 3px solid var(--color-border);
+  border-top: 3px solid var(--color-gray-7);
 }
 
 .contact-top .h1 {
@@ -4327,7 +4335,7 @@ img.u-pull-left {
   margin: auto;
 }
 
-#modal-img   {
+#modal-img {
   width: auto;
 }
 
@@ -4418,16 +4426,15 @@ img.u-pull-left {
   #about-img {
     display: none;
   }
-  #about-title{
+  #about-title {
     text-align: center;
     margin-left: -8rem !important;
     margin-bottom: -10px;
   }
-  .folio-list__item{
+  .folio-list__item {
     max-width: 300px;
-
   }
-  #home{
+  #home {
     margin: 20px;
   }
 }
