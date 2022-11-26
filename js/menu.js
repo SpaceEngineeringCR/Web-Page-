@@ -23,15 +23,15 @@
   //About section start
   function change_text_about_on() {
     //Change element inner text
-    dom_obj.about.innerHTML = "About";
+    dom_obj.about.innerHTML = "About us";
     //Change color
-    dom_obj.about.style.color = "#df9fdf";
+    dom_obj.about.style.color = "#D37506";
     //Add new class
     dom_obj.about.classList.add("mune_btn");
   }
 
   function change_text_about_off() {
-    dom_obj.about.innerHTML = "I am Fiorella,";
+    dom_obj.about.innerHTML = "We are Space Dev,,";
     dom_obj.about.style.color = "white";
     dom_obj.about.classList.remove("mune_btn");
   }
@@ -48,13 +48,13 @@
 
   //Work section start
   function change_text_work_on() {
-    dom_obj.work.innerHTML = "Work";
-    dom_obj.work.style.color = "#df9fdf";
+    dom_obj.work.innerHTML = "Our expertise";
+    dom_obj.work.style.color = "#D37506";
     dom_obj.work.classList.add("mune_btn");
   }
 
   function change_text_work_off() {
-    dom_obj.work.innerHTML = "a Frontend Engineer";
+    dom_obj.work.innerHTML = "a Web Development Agency";
     dom_obj.work.style.color = "white";
     dom_obj.work.classList.remove("mune_btn");
   }
@@ -72,7 +72,7 @@
   //Contact section start
   function change_text_contact_on() {
     dom_obj.contact.innerHTML = "Contact\n\n";
-    dom_obj.contact.style.color = "#df9fdf";
+    dom_obj.contact.style.color = "#D37506";
     dom_obj.contact.classList.add("mune_btn");
   }
 
