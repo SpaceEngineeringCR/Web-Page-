@@ -25,7 +25,7 @@
     //Change element inner text
     dom_obj.about.innerHTML = "About us";
     //Change color
-    dom_obj.about.style.color = "#D37506";
+    dom_obj.about.style.color = "#F6A21E";
     //Add new class
     dom_obj.about.classList.add("mune_btn");
   }
@@ -49,7 +49,7 @@
   //Work section start
   function change_text_work_on() {
     dom_obj.work.innerHTML = "Our expertise";
-    dom_obj.work.style.color = "#D37506";
+    dom_obj.work.style.color = "#F6A21E";
     dom_obj.work.classList.add("mune_btn");
   }
 
@@ -72,7 +72,7 @@
   //Contact section start
   function change_text_contact_on() {
     dom_obj.contact.innerHTML = "Contact\n\n";
-    dom_obj.contact.style.color = "#D37506";
+    dom_obj.contact.style.color = "#F6A21E";
     dom_obj.contact.classList.add("mune_btn");
   }
 
@@ -98,8 +98,8 @@
   //Text to change
   var _CONTENT = [
     "print('Hello world!')",
-    "console.log('you have found your candidate')",
-    "alert('Lets talk ;)')",
+    "console.log('We are the agency you're looking for')",
+    "alert('Lets talk!')",
   ];
 
   //Current sentence being processed
