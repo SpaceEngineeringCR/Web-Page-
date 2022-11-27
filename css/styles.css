@@ -4446,7 +4446,7 @@ img.u-pull-left {
 }
 
 #text{
-  line-break: anywhere;
+  line-break: anywhere !important;
 }
 
 @media screen and (max-width: 800px){
