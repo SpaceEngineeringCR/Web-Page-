@@ -2639,7 +2639,7 @@ img.u-pull-left {
 }
 
 .text-pretitle.with-line {
-  color: var(--color-1);
+  color: rgb(1, 1, 1);
   padding-left: 6rem;
   transform: translateX(-6rem);
 }
@@ -2649,7 +2649,7 @@ img.u-pull-left {
   display: block;
   height: 1px;
   width: 4rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(33, 33, 33, 0.836);
   position: absolute;
   top: 50%;
   left: 0;
@@ -4458,4 +4458,8 @@ img.u-pull-left {
   }
 
   
+}
+
+#contact {
+  height: 380px;
 }
