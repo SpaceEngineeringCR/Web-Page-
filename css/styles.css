@@ -1536,6 +1536,7 @@ hr.fancy::before {
   color: black;
 }
 
+
 .pull-quote {
   position: relative;
   padding: 0;
@@ -4442,6 +4443,10 @@ img.u-pull-left {
   line-break: anywhere !important;
 }
 
+#contact {
+  height: 380px;
+}
+
 @media screen and (max-width: 800px) {
   #text-code {
     margin-left: -9%;
@@ -4451,6 +4456,13 @@ img.u-pull-left {
   }
 }
 
-#contact {
-  height: 380px;
+@media screen and (min-width: 1201px) {
+  .attention-getter{
+    margin-top: -200px;
+  }
+  
 }
+
+
+
+

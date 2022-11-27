@@ -6,7 +6,7 @@ section {
 }
 
 .rocket {
-  margin-left: 380px;
+  margin-left: 34%;
   top: 20%;
   width: 80px;
   left: calc(50% - 60px);
@@ -244,4 +244,11 @@ section {
   #rocket {
     display: none;
   }
+}
+
+@media screen and (min-width: 1201px) {
+  .rocket{
+    margin-left: 22%;
+  }
+  
 }
