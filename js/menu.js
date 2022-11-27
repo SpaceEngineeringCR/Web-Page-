@@ -32,7 +32,7 @@
 
   function change_text_about_off() {
     dom_obj.about.innerHTML = "We are Space Dev,";
-    dom_obj.about.style.color = "black";
+    dom_obj.about.style.color = "#1C1C1A";
     dom_obj.about.classList.remove("mune_btn");
   }
 
@@ -55,7 +55,7 @@
 
   function change_text_work_off() {
     dom_obj.work.innerHTML = "a Web Development Agency";
-    dom_obj.work.style.color = "black";
+    dom_obj.work.style.color = "#1C1C1A";
     dom_obj.work.classList.remove("mune_btn");
   }
 
@@ -78,7 +78,7 @@
 
   function change_text_contact_off() {
     dom_obj.contact.innerHTML = "based in Costa Rica.";
-    dom_obj.contact.style.color = "black";
+    dom_obj.contact.style.color = "#1C1C1A";
     dom_obj.contact.classList.remove("mune_btn");
   }
 
