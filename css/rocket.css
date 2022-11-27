@@ -1,23 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 
 section{
     height: 100%;
     width: 100vw;
-    background: url(stars.png);
-    background-size: cover;
+    /* background: url(stars.png);
+    background-size: cover; */
 }
 
 .rocket{
-    position: absolute;
+    margin-left: 380px;
     top: 20%;
     width: 80px;
     left: calc(50% - 60px);
+    margin-top: -150px;
+    margin-bottom: 140px;
 }
 
 .rocket .rocket-body{
@@ -27,7 +22,7 @@ section{
 }
 
 .rocket .rocket-body .body{
-    background-color: aliceblue;
+    background-color: rgb(201, 201, 201);
     height: 180px;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -36,7 +31,6 @@ section{
 }
 
 .rocket .rocket-body::before{
-    position: absolute;
     content: "";
     left: calc(50% - 24px);
     width: 48px;
@@ -52,14 +46,13 @@ section{
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: #330675;
+    background-color: #4e4e4e;
     left: calc(50% - 20px);
     top: 40px;
-    border: 5px solid #b4b4b4;
+    border: 5px solid #565656;
 }
 
 .rocket .window::after {
-    position: absolute;
     content: "";
     width: 10px;
     height: 10px;
@@ -70,7 +63,6 @@ section{
 }
 
 .rocket .fin{
-    position: absolute;
     height: 55px;
     width: 50px;
     background: linear-gradient(to right top, rgb(245, 149, 16), rgb(190, 111, 0));
@@ -78,6 +70,7 @@ section{
 }
 
 .rocket .fin-left{
+    position: absolute;
     left: -30px;
     top: calc(100% - 55px);
     border-top-left-radius: 80%;
@@ -85,6 +78,7 @@ section{
 }
 
 .rocket .fin-right{
+    position: absolute;
     right: -30px;
     top: calc(100% - 55px);
     border-top-right-radius: 80%;
@@ -92,19 +86,25 @@ section{
 }
 
 .rocket .exhaust-flame {
-    position: absolute;
-    top: 90%;
+    position: relative;
+    top: 80%;
     width: 28px;
-    background: linear-gradient(to bottom, transparent 10%, #f5f5f5 100%);
+    background: linear-gradient(to bottom, transparent 10%, #ff8d41 100%);
     height: 150px;
     left: calc(50% - 14px);
     animation: exhaust 0.2s infinite;
 }
+
+.rocket .exhaust-fumes{
+    position: relative;
+}
+
 .rocket .exhaust-fumes li {
     position: absolute;
+    margin-top: -350px;
     width: 60px;
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #bbbbbb;
     list-style: none;
     border-radius: 100%;
 }
@@ -220,4 +220,19 @@ section{
     50%{
         transform: scale(1.1);
     }
+}
+
+@media screen and (min-width: 888px) {
+    .rocket{
+        margin-top: -25px;
+        margin-bottom: 180px;
+    }
+       
+}
+
+@media screen and (max-width: 885px) {
+    #rocket{
+        display: none;
+    }
+       
 }
