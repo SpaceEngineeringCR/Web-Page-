@@ -4438,3 +4438,19 @@ img.u-pull-left {
     margin: 20px;
   }
 }
+
+
+#text-code{
+  margin-left: -5%;
+}
+
+@media screen and (max-width: 800px){
+  #text-code{
+    margin-left: -9%;
+  }
+  #text{
+    font-size: 10px;
+  }
+
+  
+}
