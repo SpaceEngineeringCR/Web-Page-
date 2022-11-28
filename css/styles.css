@@ -1536,7 +1536,6 @@ hr.fancy::before {
   color: black;
 }
 
-
 .pull-quote {
   position: relative;
   padding: 0;
@@ -3218,9 +3217,9 @@ img.u-pull-left {
   color: var(--color-text-light);
 }
 
-.intro-social a:focus,
 .intro-social a:hover {
   color: #f6a21e;
+  border-bottom: 1px solid #f6a21e;
 }
 
 /* --------------------------------------------------------------------
@@ -3449,7 +3448,7 @@ img.u-pull-left {
   display: block;
   width: 1px;
   height: calc(100% - var(--timeline-top-adjust));
-  background-color: var(--color-border);
+  background-color: var(--color-gray-9);
   position: absolute;
   top: var(--timeline-top-adjust);
   left: 3px;
@@ -4439,7 +4438,7 @@ img.u-pull-left {
   margin-left: -5%;
 }
 
-#text{
+#text {
   line-break: anywhere !important;
 }
 
@@ -4457,12 +4456,7 @@ img.u-pull-left {
 }
 
 @media screen and (min-width: 1201px) {
-  .attention-getter{
+  .attention-getter {
     margin-top: -200px;
   }
-  
 }
-
-
-
-
