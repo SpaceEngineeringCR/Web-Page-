@@ -1259,7 +1259,7 @@ h6,
 .h5,
 .h6 {
   font-family: Monserrat;
-  font-weight: 400;
+  font-weight: bolder;
   color: black;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
