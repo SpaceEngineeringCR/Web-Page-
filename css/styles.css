@@ -4450,6 +4450,7 @@ img.u-pull-left {
 @media screen and (max-width: 800px) {
   #text-code {
     margin-left: -9%;
+    padding-bottom: 5px;
   }
   #text {
     font-size: 10px;
