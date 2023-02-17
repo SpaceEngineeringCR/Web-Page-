@@ -3182,7 +3182,6 @@ img.u-pull-left {
   align-items: center;
   padding-top: calc(1 vh + var(--header-height));
   padding-bottom: var(--vspace-3);
-  padding-top: var(--vspace-3);
 }
 
 .intro-content .text-huge-title {
