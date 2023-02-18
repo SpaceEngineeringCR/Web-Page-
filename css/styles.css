@@ -1457,12 +1457,9 @@ pre {
 code {
   font-size: var(--text-sm);
   max-width: 100%;
-  line-height: 0.6rem;
+  line-height: 1.6rem;
   margin: 0 0.2rem;
-  padding: calc(((var(--vspace-1) - 0.1rem) / 2) - 0.1rem) calc(0.8rem - 0.1rem);
-  white-space: nowrap;
-  word-wrap: break-word;
-  line-break: anywhere !important;
+  padding: calc(((var(--vspace-1) - 0.3rem) / 2) - 0.1rem) calc(0.8rem - 0.1rem);
   background: var(--color-gray-9);
   border: 1px solid var(--color-gray-8);
   color: var(--color-text-dark);
@@ -4446,7 +4443,7 @@ img.u-pull-left {
 
 #text {
   max-width: 500px !important;
-  font-size: 60% !important;
+  font-size: 65% !important;
   line-break: anywhere !important;
 }
 
@@ -4455,6 +4452,9 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 800px) {
+  .intro-content{
+    margin-top: -25% !important;
+  }
   #text-code {
     margin-left: -9%;
     padding-bottom: 5px;
