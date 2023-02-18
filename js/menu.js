@@ -98,7 +98,7 @@
   //Text to change
   var _CONTENT = [
     "console.log('Hello world!');",
-    "print('We are the agency you're looking for')",
+    "print('We are your agency')",
     "alert('Lets talk!');",
   ];
 
