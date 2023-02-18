@@ -97,9 +97,9 @@
    * -------------------------------------------------- */
   //Text to change
   var _CONTENT = [
-    "print('Hello world!')",
-    "console.log('We are the agency you're looking for')",
-    "alert('Lets talk!')",
+    "console.log('Hello world!');",
+    "print('We are the agency you're looking for')",
+    "alert('Lets talk!');",
   ];
 
   //Current sentence being processed
@@ -164,3 +164,9 @@
   //Start the typing effect on load
   _INTERVAL_VAL = setInterval(Type, 100);
 })(document.documentElement);
+
+
+const element = document.querySelector('code');
+window.addEventListener('resize', () => {   
+  element.style.width = Math.min(element.offsetWidth, window.innerWidth) + 'px';
+});

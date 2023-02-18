@@ -1456,10 +1456,13 @@ pre {
 
 code {
   font-size: var(--text-sm);
-  line-height: 1.6rem;
+  max-width: 100%;
+  line-height: 0.6rem;
   margin: 0 0.2rem;
-  padding: calc(((var(--vspace-1) - 1.6rem) / 2) - 0.1rem) calc(0.8rem - 0.1rem);
+  padding: calc(((var(--vspace-1) - 0.1rem) / 2) - 0.1rem) calc(0.8rem - 0.1rem);
   white-space: nowrap;
+  word-wrap: break-word;
+  line-break: anywhere !important;
   background: var(--color-gray-9);
   border: 1px solid var(--color-gray-8);
   color: var(--color-text-dark);
@@ -4435,11 +4438,15 @@ img.u-pull-left {
 }
 
 #text-code {
+  max-width: 500px !important;
   margin-left: -5%;
   padding-bottom: 30px;
+  line-break: anywhere !important;
 }
 
 #text {
+  max-width: 500px !important;
+  font-size: 60% !important;
   line-break: anywhere !important;
 }
 
