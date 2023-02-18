@@ -4446,7 +4446,6 @@ img.u-pull-left {
 }
 
 #text-code {
-  max-width: 500px !important;
   margin-left: -5%;
   padding-bottom: 30px;
   margin-top: 15px;
@@ -4464,6 +4463,10 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 800px) {
+  #text-code {
+    max-width: 500px !important;
+  }
+  
   #about-title {
     text-align: center;
     margin-bottom: 1px !important;
