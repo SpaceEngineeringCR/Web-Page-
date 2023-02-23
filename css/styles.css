@@ -3428,7 +3428,8 @@ img.u-pull-left {
   --timeline-left-padding: var(--vspace-1_75);
   --timeline-top-adjust: var(--vspace-0_5);
   padding-top: var(--vspace-3);
-  /* height: 1000px !important; */
+  margin-top: -8%;
+  margin-bottom: 8%;
 }
 
 .about-timelines .text-pretitle {
@@ -4485,7 +4486,7 @@ img.u-pull-left {
   }
 
   .about-timelines {
-    margin-top: -10%;
+    margin-top: -12%;
     margin-bottom: 10%;
   }
 }
