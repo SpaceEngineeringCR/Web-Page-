@@ -4435,7 +4435,6 @@ img.u-pull-left {
   #about {
     display: grid;
     place-items: center;
-    /* margin-bottom: 150px; */
   }
 
   .folio-list__item {
@@ -4465,25 +4464,7 @@ img.u-pull-left {
 }
 
 
-
-/* @media screen and (max-width: 450px) {
-  #about {
-    margin-bottom: 700px;
-  }
-
-}
-
-@media screen and (min-width: 450px) and (max-width: 800px){
-  #about {
-    margin-bottom: 750px;
-  }
-
-} */
-
 @media screen and (max-width: 800px) {
-  /* #about {
-    margin-bottom: 950px;
-  } */
 
   #text-code {
     max-width: 500px !important;
@@ -4493,9 +4474,7 @@ img.u-pull-left {
     text-align: center;
     margin-bottom: 1px !important;
   }
-    /* .intro-content{
-      margin-top: -30% !important;
-    } */
+ 
   #text-code {
     margin-left: -9%;
     padding-bottom: 5px;
