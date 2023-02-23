@@ -61,7 +61,7 @@
      * Tint & Shade Generator 
      * (https://maketintsandshades.com/)
      */
-  --color-black: #000000;
+  --color-black: #1a1919;
   --color-gray-19: #020202;
   --color-gray-18: #040404;
   --color-gray-17: #060607;
@@ -81,7 +81,7 @@
   --color-gray-3: #b9b9b9;
   --color-gray-2: #d0d0d0;
   --color-gray-1: #e8e8e8;
-  --color-white: #ffffff;
+  --color-white: #e2e2e2;
 
   /* text
      */
@@ -108,7 +108,7 @@
   /* preloader
      */
   --color-preloader-bg: var(--color-gray-10);
-  --color-loader: white;
+  --color-loader: rgb(243, 243, 243);
   --color-loader-light: rgba(255, 255, 255, 0.1);
 
   /* others
@@ -3181,7 +3181,7 @@ img.u-pull-left {
   min-height: calc(23.5 * var(--space));
   justify-content: center;
   align-items: center;
-  padding-top: calc(1 vh + var(--header-height));
+  padding-top: 15px;
   padding-bottom: var(--vspace-3);
 }
 
@@ -3282,9 +3282,6 @@ img.u-pull-left {
     --text-huge-multiplier: 0.8;
   }
 
-  .intro-content {
-    padding-top: calc(14vh + var(--header-height));
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -3306,7 +3303,7 @@ img.u-pull-left {
   .intro-content {
     min-height: 0;
     align-items: flex-start;
-    padding-top: calc(9.6rem + var(--header-height));
+    padding-top: 20px;
   }
 
   .intro-content .text-huge-title {
@@ -4450,6 +4447,7 @@ img.u-pull-left {
 }
 
 #text-code {
+  margin-top: 1%;
   margin-left: -5%;
   padding-bottom: 30px;
   margin-top: 15px;
@@ -4501,7 +4499,7 @@ img.u-pull-left {
     margin-bottom: 1px !important;
   }
     /* .intro-content{
-      margin-top: -25% !important;
+      margin-top: -30% !important;
     } */
   #text-code {
     margin-left: -9%;
