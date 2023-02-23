@@ -4145,6 +4145,7 @@ img.u-pull-left {
   .contact-top {
     padding-top: var(--vspace-4);
   }
+
 }
 
 /* ===================================================================
@@ -4481,6 +4482,11 @@ img.u-pull-left {
   }
   #text {
     font-size: 10px;
+  }
+
+  .about-timelines {
+    margin-top: -10%;
+    margin-bottom: 10%;
   }
 }
 
